@@ -1,0 +1,36 @@
+.playlist-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #152850;
+  height: 50vh;
+  color: white;
+  padding: 35px;
+}
+.search-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input {
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  margin-top: 45px;
+  padding: 10px;
+  width: 250px;
+  color: white;
+}
+
+.music-track-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.music-image {
+  width: 150px;
+}
+.music-overflow-container {
+  overflow-y: auto;
+}
